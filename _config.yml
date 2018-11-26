@@ -1,2 +1,3 @@
 name: Paige Boehmcke
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

@@ -45,6 +45,7 @@ ul.posts li {
     flex-flow: row wrap;
 }
 .blurb {
+    width: 35%;
     padding: .8em;
     flex: 1; /* additionally, equal width */
 }

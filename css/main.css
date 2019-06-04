@@ -42,7 +42,7 @@ ul.posts li {
 }
 .container {
     display: flex; /* equal height of the children */
-    flex-flow: row wrap;
+    flex-wrap: wrap;
 }
 .blurb {
     padding: .8em;

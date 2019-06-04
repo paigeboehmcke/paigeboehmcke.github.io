@@ -39,11 +39,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-div.homeleft {
-    float: left;
-    background-color:yellow;
-}
-div.homeright {
-    float: right;
-    background-color:teal;
-}

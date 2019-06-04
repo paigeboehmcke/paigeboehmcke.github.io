@@ -20,12 +20,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: var(--f, 3em);
+    font-size: calc(var(--h)/3);
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: calc(var(--f)/2);
-    line-height: calc(var(--f)*1.4/3);
+    font-size: calc(var(--h)/6);
+    line-height: calc(var(--f)*1.4/9);
     color: #333;
 }
 footer {
@@ -43,7 +43,7 @@ ul.posts li {
 .container {
     display: flex; /* equal height of the children */
     flex-wrap: wrap;
-    height: var(--h, 200px);
+    height: var(--h, 20%);
 }
 .blurb {
     padding: .8em;

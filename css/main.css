@@ -43,6 +43,8 @@ ul.posts li {
 .container {
     display: flex; /* equal height of the children */
     flex-wrap: wrap;
+    --h:80vh;
+    height:var(--h);
 }
 .blurb {
     padding: .8em;

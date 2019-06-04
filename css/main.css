@@ -39,3 +39,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+homeleft {
+    float: left;
+}
+homeright {
+    float: right;
+}

@@ -39,11 +39,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-blurb {
-    float: left;
-    width: 50%;
-}
-headshot_main {
-    float: left;
-    width: 300px;
-}

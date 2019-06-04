@@ -41,7 +41,9 @@ ul.posts li {
 }
 div.homeleft {
     float: left;
+    background-color:yellow;
 }
 div.homeright {
     float: right;
+    background-color:teal;
 }

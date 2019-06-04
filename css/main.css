@@ -65,4 +65,5 @@ ul.posts li {
     flex-shrink: 1;
     flex-grow: 1;
     min-width: 200px;
+    max-width: 2448px;
 }

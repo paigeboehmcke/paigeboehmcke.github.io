@@ -42,11 +42,10 @@ ul.posts li {
 }
 .container {
     display: flex; /* equal height of the children */
-    margin-bottom: 3%;
+    margin-bottom: .8em;
 }
 .blurb {
-  flex: 1; /* additionally, equal width */
-  
-  padding: 1em;
-  border: solid;
+    display: inline;
+    flex: 1; /* additionally, equal width */
+    padding: 1em;
 }

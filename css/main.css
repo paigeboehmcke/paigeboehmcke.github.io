@@ -71,7 +71,7 @@ ul.posts li {
 }
 .container {
     display: flex; /* equal height of the children */
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .blurb {
     padding: .8em;

@@ -39,8 +39,8 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-div.home {
+div.blurb {
     display: block;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }

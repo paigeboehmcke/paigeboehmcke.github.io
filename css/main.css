@@ -9,9 +9,11 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
 }
 nav ul li, footer ul li {
-    display: inline;
+    flex: 1;
     margin-right: 20px;
 }
 a {

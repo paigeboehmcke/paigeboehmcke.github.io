@@ -11,6 +11,7 @@ nav ul, footer ul {
     font-weight: bold;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 nav ul li, footer ul li {
     flex: 1;
@@ -47,6 +48,7 @@ ul.posts li {
 .container {
     display: flex; /* equal height of the children */
     flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 .blurb {
     padding: .8em;

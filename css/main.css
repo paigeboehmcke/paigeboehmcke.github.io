@@ -22,12 +22,12 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    /*font-size: 3em;*/
-    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    /*font-size: 1.5em;*/
-    /*line-height: 1.4em;*/
+    font-size: 1.5em;
+    line-height: 1.4em;
     color: #333;
 }
 footer {
@@ -54,19 +54,3 @@ ul.posts li {
     min-width: 200px;
     max-width: 2448px;
 }
-
-h1 {
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  /*font-size: 16px;*/
-  font-size: 0.3vw;
-}
-/*@media screen and (min-width: 320px) {
-  h1 {
-    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  h1 {
-    font-size: 22px;
-  }
-}*/

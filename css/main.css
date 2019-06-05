@@ -56,5 +56,5 @@ ul.posts li {
 }
 .blurb h1 {
     var(--fw,100%);
-    font-size: calc(.3*var(fw));
+    font-size: calc(.3*var(--fw));
 }

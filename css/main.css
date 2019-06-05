@@ -11,6 +11,8 @@ nav ul, footer ul {
     font-weight: bold;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: flex-start;
+    float: left;
     align-content: left;
 }
 nav ul li, footer ul li {

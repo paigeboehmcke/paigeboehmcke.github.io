@@ -57,9 +57,10 @@ ul.posts li {
 
 h1 {
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 0.3vw
 }
-@media screen and (min-width: 320px) {
+/*@media screen and (min-width: 320px) {
   h1 {
     font-size: calc(16px + 6 * ((100vw - 320px) / 680));
   }
@@ -68,4 +69,4 @@ h1 {
   h1 {
     font-size: 22px;
   }
-}
+}*/

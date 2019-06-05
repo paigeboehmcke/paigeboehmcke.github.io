@@ -48,6 +48,7 @@ ul.posts li {
     list-style: none;
 }
 .container {
+    clear: both;
     display: flex; /* equal height of the children */
     flex-wrap: nowrap;
     align-content: left;

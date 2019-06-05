@@ -23,7 +23,6 @@ a:hover {
 }
 h1 {
     /*font-size: 3em;*/
-    font-size: calc(12px + 48 * ((100% - 320px) / 680));
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
@@ -54,4 +53,8 @@ ul.posts li {
     flex-grow: 1;
     min-width: 200px;
     max-width: 2448px;
+}
+.blurb h1 {
+    var(--fw,100%);
+    font-size: calc(12px + 48 * ((50fw - 320px) / 680));
 }

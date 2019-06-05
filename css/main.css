@@ -1,17 +1,4 @@
 body {
-  font-size: 12px;
-}
-@media only screen and (min-width: 320px) {
-  body {
-    font-size: calc(12px + 48 * ((100vw - 320px) / 680));
-  }
-}
-@media only screen and (min-width: 1000px) {
-  body {
-    font-size: 60px;
-  }
-}
-body {
     max-width: 1000px;
     padding: 1rem;
     margin: 60px auto;
@@ -36,6 +23,7 @@ a:hover {
 }
 h1 {
     /*font-size: 3em;*/
+    font-size: calc(12px + 48 * ((100vw - 320px) / 680));
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {

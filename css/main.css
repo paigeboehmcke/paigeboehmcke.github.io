@@ -23,7 +23,7 @@ a:hover {
 }
 h1 {
     /*font-size: 3em;*/
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /*font-family:'Helvetica', 'Arial', 'Sans-Serif';*/
 }
 p {
     /*font-size: 1.5em;*/
@@ -54,7 +54,18 @@ ul.posts li {
     min-width: 200px;
     max-width: 2448px;
 }
-.blurb h1 {
-    var(--fw, $(".blurb").width());
-    font-size: calc(.3*var(--fw));
+
+h1 {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 22px;
+  }
 }

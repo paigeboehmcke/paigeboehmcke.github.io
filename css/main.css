@@ -55,6 +55,6 @@ ul.posts li {
     max-width: 2448px;
 }
 .blurb h1 {
-    var(--fw,100%);
+    var(--fw, $("#postanad").width());
     font-size: calc(.3*var(--fw));
 }

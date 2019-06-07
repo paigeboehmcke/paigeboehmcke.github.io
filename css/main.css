@@ -60,6 +60,6 @@ ul.posts li {
     flex: 1; /* additionally, equal width */
     flex-shrink: 1;
     flex-grow: 1;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 2448px;
 }

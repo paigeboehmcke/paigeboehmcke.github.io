@@ -78,20 +78,20 @@ nav a:hover {
 
 .ticket-frame .stub-img {
   position: absolute;
-  left: 0;
-  top: 0;
-  width: 76%;
-  height: 100%;
+  left: 2.5%;
+  top: 3%;
+  width: 71%;
+  height: 94%;
   object-fit: cover;
   object-position: center 30%;
 }
 
 .ticket-frame .stub-tab {
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 24%;
-  height: 100%;
+  right: 2.5%;
+  top: 3%;
+  width: 19.5%;
+  height: 94%;
   background: var(--accent);
   display: flex;
   align-items: center;
@@ -187,6 +187,21 @@ footer {
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--hairline);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-tag {
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 1.1rem;
+  color: var(--ink);
+  margin: 0;
 }
 
 footer a {

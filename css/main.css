@@ -74,7 +74,6 @@ nav a:hover {
   width: 168px;
   height: 128px;
   transform: rotate(-5deg);
-  box-shadow: 0 10px 20px rgba(23, 34, 59, 0.25);
 }
 
 .ticket-frame .stub-img {
